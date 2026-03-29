@@ -1,0 +1,20 @@
+#outerDiv{
+    height: 600px;
+    width: 600px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(80, 80, 97);
+}
+
+.innerdiv{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ff0000;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

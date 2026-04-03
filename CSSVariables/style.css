@@ -1,0 +1,40 @@
+:root{
+    --main-color: rgb(252, 5, 211);
+    --sub-color: skyblue;
+    --text-color:rgb(112, 233, 112);
+}
+
+
+
+
+
+#login{
+    background-color: var(--main-color);
+    border-radius: 20px;
+}
+
+#register{
+    background-color: var(--sub-color);
+    border-radius: 10px;
+}
+
+h1{
+    color: var(--main-color); 
+}
+
+h3{
+    color: var(--sub-color);
+}
+
+p{
+    color: var(--text-color);
+}
+
+th{
+
+    color: var(--main-color);
+}
+
+td{
+    color: var(--text-color);
+}

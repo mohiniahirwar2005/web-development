@@ -1,0 +1,19 @@
+.nav-bar{
+    list-style:none;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.nav-bar li{
+    padding: 15px 20px;
+    border-right: 2px solid #ccc;
+}
+
+.nav-bar li:first-child{
+    color: black;
+}
+
+.nav-bar li:last-child{
+    border-right: none;
+    color: #e74c3c;
+}

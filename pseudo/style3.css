@@ -1,0 +1,15 @@
+/* Target the 2nd item specifically */
+li:nth-child(2) {
+  background-color: #f1c40f; /* Yellow */
+  font-weight: bold;
+}
+
+/* Target all EVEN numbered items (2, 4, 6...) */
+li:nth-child(even) {
+  background-color: #ecf0f1; /* Light Gray */
+}
+
+/* Target all ODD numbered items (1, 3, 5...) */
+li:nth-child(odd) {
+  color: #2980b9; /* Blue Text */
+}

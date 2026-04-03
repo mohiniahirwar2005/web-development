@@ -1,0 +1,30 @@
+h1{
+    color: palevioletred;
+}
+
+body{
+    background-color: bisque;
+}
+
+h3{
+    color: magenta;
+}
+
+fieldset{
+    
+    background-color: palevioletred;
+}
+
+p{
+    color: black;
+}
+
+table{
+    background-color: brown;
+}
+
+h1{
+    background-color: aquamarine;
+    width: 500px;
+    align-items: center;
+}

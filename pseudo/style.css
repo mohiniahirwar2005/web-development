@@ -1,0 +1,17 @@
+/* Normal State */
+.cool-button {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 32px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover State */
+.cool-button:hover {
+  background-color: #e74c3c; /* Changes to Red */
+  transform: translateY(-5px); /* Moves up slightly */
+}

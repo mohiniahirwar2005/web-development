@@ -1,0 +1,14 @@
+.input-field {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none; /* Removes the default browser blue glow */
+  transition: 0.3s;
+}
+
+/* 2. The Focused State (The "Selection" State) */
+.input-field:focus {
+  border-color: #3498db;    /* Changes border to Blue */
+  background-color: #f0f8ff; /* Adds a light blue tint */
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5); /* Adds a soft glow */
+}

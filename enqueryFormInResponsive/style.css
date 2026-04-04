@@ -1,0 +1,399 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  gap: 20px 20px 20px 20px;
+
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+
+
+header nav a {
+  text-decoration: none;
+  color: #121613;
+  cursor: pointer;
+}
+
+header .student-login {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  gap: 20px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.enquiry-form-container{
+  width: 50%;
+  background-color: #b8eff3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  width: 50%;
+  margin: 40px auto;
+  background-color: rgb(135, 235, 165);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.1);
+}
+
+
+#form-row:last-child{
+  text-align: center;
+}
+
+.source-group {
+    width: 40%;
+}
+
+.form-row {
+    display: flex;       
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.course-group {
+    width: 60%;           
+}
+
+.source-group {
+    width: 40%;       
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-header h2 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.form-header p {
+  color: #555;
+  font-size: 14px;
+}
+
+.form-group3{
+  width: 50%;
+}
+
+.form-group4{
+  width: 50%;
+}
+
+#form-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column ; 
+}
+
+.form-group1{
+  width: 70%;
+}
+
+.form-group2{
+  width: 30%;
+}
+.form-row2:last-child{
+  text-align: center;
+}
+.form-group.full-width {
+  width: 100%;
+}
+
+.form-group source-group :last-child{
+    display: flex;
+  gap: 20px;
+}
+label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  border-color: #00796b;
+  outline: none;
+}
+
+.course-group label {
+  font-weight: 400;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+button {
+ 
+  background-color: #080808;
+  color: white;
+   padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.btn-center{
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+
+.container{
+    display: flex;
+      width: 500 px;
+      height: 540px;
+      background-color:rgb(18, 81, 129);
+      position: sticky;
+    
+     
+     justify-content: end;
+
+  }
+
+  .box
+  {
+    color: rgba(200, 206, 207, 0.808);
+   display: flex;
+    width: 290px;
+    height:300px;
+   line-height:auto;
+   font-family:  'Poppins', 'Open Sans', Arial, sans-serif;
+    background-color:rgb(18, 81,129); 
+     margin: 95px 20px 45px 5px;
+    justify-content:center;
+    display: block;
+
+    display: inline-block;
+
+
+    .bold
+    {
+      font-size:22px;
+      color: aliceblue;
+    }
+
+  
+   
+  }
+
+  #border
+  {
+    
+    border-bottom: 1px solid #727272;
+    
+    
+    
+  }
+
+
+
+
+  .ricrbox{
+
+    color:rgba(200, 206, 207, 0.808);
+    width: 285px;
+    height:250px;
+
+   margin:95px ;
+   
+
+   line-height:23px;
+   font-family:  'Poppins', 'Open Sans', Arial, sans-serif;
+   
+    
+    background-color: rgb(18, 81, 129);
+
+  }
+
+  .infobox
+  {
+
+    font-size: large;
+    
+  }  
+  #icon
+  {     
+
+  gap: 75px;
+    color: antiquewhite;
+  }
+.navbar{
+    display: flex;
+    gap: 80px;
+    
+}
+
+.navbar span{
+  cursor: pointer;
+}
+
+#number{
+  gap: 20px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .enquiry-form-container,
+  .form-container {
+    width: 80%;
+  }
+
+  #form-row {
+    flex-direction: column;
+  }
+
+  .form-group1,
+  .form-group2,
+  .form-group3,
+  .form-group4 {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .box,
+  .ricrbox {
+    width: 90%;
+    margin: 20px 0;
+    text-align: center;
+  }
+}
+
+
+/* Mobile view */
+@media (max-width: 600px) {
+
+  header {
+    padding: 10px;
+  }
+
+  header nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header .student-login {
+    width: 100%;
+    text-align: center;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .enquiry-form-container,
+  .form-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  input,
+  select {
+    font-size: 13px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .box,
+  .ricrbox {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+}

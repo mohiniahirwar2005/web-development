@@ -46,6 +46,7 @@ header .student-login {
   gap: 20px 20px;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 6px 6px 0px #79b6de;
 }
 
 
@@ -58,8 +59,8 @@ main{
 }
 
 .enquiry-form-container{
-  width: 50%;
-  background-color: #c3e7f0;
+  width: 60%;
+  background-color: #eaf8fe;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -73,6 +74,8 @@ main{
   border-radius: 10px;
   box-shadow: 0 0 10px  rgba(0, 0, 0, 0.1);
 }
+
+
 
 
 #form-row:last-child{

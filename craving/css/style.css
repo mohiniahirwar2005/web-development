@@ -1,4 +1,3 @@
-
 :root {
   --color-primary:          #c2410c;
   --color-primary-content:  #ffffff;
@@ -52,7 +51,7 @@ body {
   color: var(--color-primary);
 }
 
-/* 4. Footer */
+
 .cravings-footer {
   background-color: var(--color-neutral);
   color: var(--color-neutral-content);
@@ -1935,3 +1934,20 @@ body {
     height: 180px;
   }
 }
+
+
+.navbar-brand .h-full {
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand .w-fit {
+  width: auto;
+}
+
+.navbar-brand .h-full img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}  

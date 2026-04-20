@@ -19,7 +19,6 @@ body {
   color: var(--color-base-content);
 }
 
-
 .cravings-navbar {
   background-color: var(--color-primary);
   min-height: 64px;
@@ -34,7 +33,7 @@ body {
 .cravings-navbar .nav-link:hover,
 .cravings-navbar .nav-link.active {
   opacity: 1;
-  color: var(--color-primary-content);
+  color: var(--color-primary-content)
 }
 
 .btn-register {
@@ -50,6 +49,22 @@ body {
   background-color: var(--color-primary-content);
   color: var(--color-primary);
 }
+
+.navbar-brand .h-full {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand .w-fit {
+  width: auto;
+}
+
+.navbar-brand .h-full img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+} 
 
 
 .cravings-footer {
@@ -253,37 +268,6 @@ body {
   color: #64748b;
 }
 
-.hero-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #ffffff;
-  border: none;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 3;
-  transition: all 0.2s ease;
-}
-
-.hero-arrow:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.hero-arrow.left {
-  left: 20px;
-}
-
-.hero-arrow.right {
-  right: 20px;
-}
-
 @media (max-width: 768px) {
   .hero-heading {
     font-size: 36px;
@@ -302,7 +286,6 @@ body {
     right: 10px;
   }
 }
-
 
 .featured-section {
   background: linear-gradient(180deg, #c2410c 0%, #fff8f1 100%);
@@ -359,7 +342,8 @@ body {
 }
 
 .restaurant-card .card-body {
-  padding: 20px;
+
+    padding: 20px;
 }
 
 .restaurant-card .card-title {
@@ -406,7 +390,6 @@ body {
   color: var(--color-primary-content);
 }
 
-
 .auth-section {
   min-height: calc(100vh - 64px);
   background-image: url('../images/login-bg.jpg');
@@ -429,6 +412,7 @@ body {
   padding: 40px 32px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.12);
 }
+
 
 .auth-title {
   font-size: 28px;
@@ -585,6 +569,7 @@ body {
   justify-content: center;
 }
 
+
 .about-hero .hero-overlay {
   background-color: rgba(0, 0, 0, 0.55);
 }
@@ -680,17 +665,16 @@ body {
 .team-name {
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-base-content);
+ color: var(--color-base-content);
   margin-bottom: 4px;
 }
-
 .team-role {
   font-size: 14px;
   color: var(--color-secondary);
 }
 
 .cta-banner {
-  background-color: var(--color-neutral);
+  background-color:#a53509;
   padding: 60px 0;
   text-align: center;
 }
@@ -1349,7 +1333,6 @@ body {
 }
 
 
-/* About Page Stats Bar - Dark version */
 .about-stats-bar {
   background-color: var(--color-neutral);
   padding: 40px 0;
@@ -1676,7 +1659,7 @@ body {
   }
 }
 
-/* Restaurant Menu Page */
+
 .restaurant-header {
   background-color: #ffffff;
   border-bottom: 1px solid var(--color-base-300);
@@ -1938,18 +1921,3 @@ body {
 }
 
 
-.navbar-brand .h-full {
-  height: 36px;
-  display: flex;
-  align-items: center;
-}
-
-.navbar-brand .w-fit {
-  width: auto;
-}
-
-.navbar-brand .h-full img {
-  height: 100%;
-  width: auto;
-  object-fit: contain;
-}  

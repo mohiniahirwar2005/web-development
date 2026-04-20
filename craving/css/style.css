@@ -794,7 +794,7 @@ body {
 }
 
 .feedback-section {
-  background-image: url('../images/feedback-bg.jpg');
+  background-image: url('../images/image.png');
   justify-content: flex-end;
 }
 
@@ -815,7 +815,7 @@ body {
 
 .help-hero {
   min-height: 50vh;
-  background-image: url('../images/help-bg.jpg');
+  background-image: url('../images/help-bg.png');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -825,10 +825,12 @@ body {
 }
 
 .help-hero .hero-overlay {
+
   background-color: rgba(0, 0, 0, 0.55);
 }
 
 .help-hero i {
+ 
   font-size: 48px;
   color: var(--color-primary-content);
   margin-bottom: 16px;
